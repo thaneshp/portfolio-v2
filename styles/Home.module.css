@@ -1,8 +1,49 @@
-.container {
-  padding: 0 2rem;
+.wrapperMasthead {
+  margin-bottom: 50px;
 }
 
-.main {
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* .siteInfo {
+  float: left;
+} */
+
+.siteName {
+  margin: 0;
+  color: #333;
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.siteName a {
+  color: inherit
+}
+
+.siteDescription {
+  margin: -5px 0 0 0;
+  color: #666;
+  font-family: Arial;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -113,4 +154,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
