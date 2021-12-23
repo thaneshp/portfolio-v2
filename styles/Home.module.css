@@ -14,9 +14,9 @@
   border-bottom: 1px solid #eee;
 }
 
-/* .siteInfo {
+.siteInfo {
   float: left;
-} */
+}
 
 .siteName {
   margin: 0;
@@ -29,19 +29,39 @@
 }
 
 .siteName a {
-  color: inherit
+  color: inherit;
+}
+
+.siteName a:hover{
+  color: #222222;
+  text-decoration: none;
 }
 
 .siteDescription {
-  margin: -5px 0 0 0;
+  margin: -2.5px 0 0 0;
   color: #666;
   font-family: Arial;
   font-size: 24px;
   margin-bottom: 15px;
 }
 
+.siteDescription a {
+  color: inherit;
+}
 
+.siteDescription a:hover{
+  color: #666;
+  text-decoration: none;
+}
 
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
 
 /* .main {
   min-height: 100vh;
