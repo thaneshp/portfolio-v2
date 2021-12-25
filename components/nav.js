@@ -4,13 +4,13 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link href="/projects">
-          <a>Projects</a>
+        <Link href="https://blog.thanesh.io">
+          <a>Blog</a>
         </Link>
       </li>
       <li>
-        <Link href="https://blog.thanesh.io">
-          <a>Blog</a>
+        <Link href="/projects">
+          <a>Projects</a>
         </Link>
       </li>
       <li>
