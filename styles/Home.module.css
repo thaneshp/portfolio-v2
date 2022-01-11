@@ -63,6 +63,32 @@
   display: table;
 }
 
+.contact h3 {
+  font-size: 1.1em;
+}
+
+/* Contact page - Social Icons */
+.icons {
+  text-align: left;
+}
+
+.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+.certifications li {
+  list-style-type: none;
+}
+
+.googleIcon {
+  color: #34a853;
+}
+
+.awsIcon {
+  color: #FF9900;
+}
+
 /* .main {
   min-height: 100vh;
   padding: 4rem 0;

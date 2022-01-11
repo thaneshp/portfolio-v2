@@ -1,44 +1,31 @@
 import Header from "../components/header";
 import styles from "../styles/Home.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faAws } from "@fortawesome/free-brands-svg-icons";
 
 const Certifications = () => (
   <>
     <Header />
     <div className={styles.container}>
       <h1>Certifications</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
-        posuere tellus, ut convallis mauris. Ut a congue nisi, in dignissim
-        massa. Suspendisse tincidunt elit a nisi volutpat finibus. Ut maximus
-        ipsum et eros tempus volutpat. Nunc laoreet ex non sagittis luctus.
-        Donec finibus augue urna, quis condimentum orci commodo vitae. Phasellus
-        quis dui lobortis, egestas odio quis, scelerisque diam. Mauris consequat
-        mauris ut rhoncus mollis. Orci varius natoque penatibus et magnis dis
-        parturient montes, nascetur ridiculus mus.
-      </p>
-      <p>
-        Phasellus scelerisque nisi id metus dapibus sodales. Sed finibus tempor
-        risus quis venenatis. Maecenas nec malesuada lectus. Phasellus sed
-        luctus est, non imperdiet velit. Aenean et auctor magna, eget vestibulum
-        augue. Donec laoreet, diam nec auctor aliquet, risus dui luctus augue,
-        id semper orci mi condimentum mauris. Duis accumsan sem ac aliquam
-        dapibus. Curabitur vehicula arcu sit amet ipsum dapibus, vitae aliquam
-        nulla pulvinar.
-      </p>
-      <p>
-        Phasellus scelerisque nisi id metus dapibus sodales. Sed finibus tempor
-        risus quis venenatis. Maecenas nec malesuada lectus. Phasellus sed
-        luctus est, non imperdiet velit. Aenean et auctor magna, eget vestibulum
-        augue. Donec laoreet, diam nec auctor aliquet, risus dui luctus augue,
-        id semper orci mi condimentum mauris. Duis accumsan sem ac aliquam
-        dapibus. Curabitur vehicula arcu sit amet ipsum dapibus, vitae aliquam
-        nulla pulvinar.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
-        posuere tellus, ut convallis mauris. Ut a congue nisi, in dignissim
-        massa. Suspendisse tincidunt elit a nisi volutpat finibus.
-      </p>
+      <ul className={styles.certifications}>
+        <li>
+          <FontAwesomeIcon icon={faGoogle} />
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faGoogle} className={styles.googleIcon} size="2x"/>
+          <label>GCP Professional Cloud DevOps Engineer (2021)</label>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faGoogle} className={styles.googleIcon} size="2x"/>
+          <label>GCP Associate Cloud Engineer (2021)</label>
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faAws} className={styles.awsIcon} size="2x"/>
+          <label>AWS Cloud Practioner Certificate (2020)</label>
+        </li>
+      </ul>
     </div>
   </>
 );
