@@ -1,7 +1,6 @@
-
 import styles from "../styles/Home.module.css";
 import Nav from "./nav.js";
-
+import Link from "next/link";
 
 const Header = () => (
   <div className={styles.wrapperMasthead}>
@@ -9,10 +8,10 @@ const Header = () => (
       <header className={`${styles.masthead} ${styles.clearfix}`}>
         <div className={styles.siteInfo}>
           <h1 className={styles.siteName}>
-            <a href="/">Thanesh Pannirselvam</a>
+            <Link href="/">Thanesh Pannirselvam</Link>
           </h1>
           <p className={styles.siteDescription}>
-            <a href="/">Site Reliability Engineer from Melbourne</a>
+            <Link href="/">Site Reliability Engineer from Melbourne</Link>
           </p>
           <Nav />
         </div>

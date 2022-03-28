@@ -1,21 +1,22 @@
 import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 const Nav = () => (
   <nav>
-    <ul>
+    <ul className={styles.navUl}>
+      <li>
+        <Link href="/">
+          <a>Projects</a>
+        </Link>
+      </li>
       <li>
         <Link href="https://blog.thanesh.io">
           <a>Blog</a>
         </Link>
       </li>
       <li>
-        <Link href="/projects">
-          <a>Projects</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/certifications">
-          <a>Certifications</a>
+        <Link href="https://wiki.thanesh.io">
+          <a>Wiki</a>
         </Link>
       </li>
       <li>
