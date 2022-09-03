@@ -36,12 +36,8 @@ let projects = [
       "A social media application aimed at fostering rational debate on the internet. It was built with the intention of enabling both sides of a topic to be heard.",
     links: [
       {
-        label: "Demo",
-        url: "https://debatable.com.au/",
-      },
-      {
         label: "Github",
-        url: "https://github.com/zainafzal88/scrumblr-enhancement",
+        url: "https://github.com/thaneshp/debatable",
       },
     ],
   },

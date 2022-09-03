@@ -15,11 +15,6 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://wiki.thanesh.io">
-          <a>Wiki</a>
-        </Link>
-      </li>
-      <li>
         <Link href="/contact">
           <a>Contact</a>
         </Link>
