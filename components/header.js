@@ -11,7 +11,7 @@ const Header = () => (
             <Link href="/">Thanesh Pannirselvam</Link>
           </h1>
           <p className={styles.siteDescription}>
-            <Link href="/">Site Reliability Engineer from Melbourne</Link>
+            <Link href="/">Engineer from Melbourne</Link>
           </p>
           <Nav />
         </div>
