@@ -85,6 +85,12 @@
   line-height: 1.5;
 }
 
+@media screen and (max-width: 640px) {
+  .contact {
+    text-align: center;
+  }
+}
+
 /* Contact page - Social Icons */
 .icons {
   text-align: left;
@@ -93,6 +99,15 @@
 .icons li {
   display: inline-block;
   padding: 0 1em 0 0;
+}
+
+@media screen and (max-width: 640px) {
+  .icons {
+    text-align: center;
+  }
+  .icons li {
+    padding: 0 1em 0 1em;
+  }
 }
 
 /* Certfications Page */
