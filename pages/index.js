@@ -7,7 +7,7 @@ let projects = [
   {
     title: "ProbeX",
     description:
-      "Open-source REST API penetration testing tool, forked from an existing repository. Refactoring the application to make it more usable and accessible.",
+      "Open-source REST API penetration tester, forked from an existing repository. Refactoring the application to make it more usable and accessible.",
     links: [
       {
         label: "Landing Page",
