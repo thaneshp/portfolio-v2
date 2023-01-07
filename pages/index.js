@@ -5,6 +5,21 @@ import ProjectCard from "../components/project-card";
 
 let projects = [
   {
+    title: "ProbeX",
+    description:
+      "Open-source REST API penetration testing tool, forked from an existing repository. Refactoring the application to make it more usable and accessible.",
+    links: [
+      {
+        label: "Landing Page",
+        url: "https://getprobed.io/",
+      },
+      {
+        label: "Github",
+        url: "https://github.com/thaneshp/probeX",
+      }
+    ],
+  },
+  {
     title: "Appointment Checker",
     description:
       "A web scraper designed to find available appointments on a particular website.",
